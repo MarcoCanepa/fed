@@ -53,7 +53,39 @@
             <button type="submit">Send</button>
             </div>  
         </form>   
-
+<hr>
+    <h3>Get vs. Post</h3>
+        <p>
+        Quando uso un form <q>get</q> i dati che sto trasferendo vengono inseriti nell'url, mentre usando <q>post</q> i dati vengono mandati nel payload. <br>
+        Quando sto mandando un username e password userò una post in https (criptato)
+        </p>
+<hr>
+    <h3>Checked Input</h3>
+        <form action="/unknown" method="POST">Which of these programming languages do you not know:
+            <div>
+                <input type="checkbox" id="langJ" name="lang" value="Java">
+                <label for="langJ">Java</label>
+                <input type="checkbox" id="langPy" name="lang" value="Python">
+                <label for="langPy">Python</label>
+                <input type="checkbox" id="langCpp" name="lang" value="Cpp">
+                <label for="langCpp">C++</label>
+            </div>
+            <div>
+                <Button type="submit">Send</Button>
+            </div>
+        </form>
+<hr>
+    <h3>Select - Option</h3>
+        
+        <label for="favos">Pick your favorite OS:</label>
+        <div>
+        <select name="os" id="favos">
+            <option value="none">-</option>
+            <option value="linux">Linux</option>
+            <option value="windows">Windows</option>
+            <option value="macOs">MacOS</option>
+        </select>
+        </div>
 </body>
 
 </html>
