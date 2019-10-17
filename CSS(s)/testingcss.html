@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     
     <title>Testing CSS</title>
-    <style>input {color:darkgoldenrod};</style>
+    <style>input.dated {color: firebrick};</style>
     <style>div {color:blue};</style>
     <style>b {color: orange}</style>
     <link rel="stylesheet" type=text/css href="stylesheet.css">
@@ -18,7 +18,7 @@
             mentre il testo interno alla div sarà blu. Questi colori sono dati da regole nel head della pagina.<br>
             Il testo di questo paragrafo invece è verde perchè a questa pagina html ho linkato una pagina css che <br> 
             mi impone il verde come colore del testo di ogni <q>p</q></p>
-        <input type="date" name="tester">
+        <input class="dated" type="date" name="tester">
         <br> <br>
     <span id="radio">
         <input type="radio" id="fava" name="fav" value="apple" checked> <!--checked implica il default-->
@@ -44,11 +44,17 @@
         <h2>very important!</h2>
     </div>
     <div>
-        <p>The world is a magical place!</p>
+        <p>The world is a magical place!s</p>
     </div>
-
-
-
+<br>
+<hr>
+<br>
+    <div id="green">
+        <label for="green">What do you think of the color green?</label> <br>
+        <textarea name="green" class="dated" type="text" rows="20" cols="80" placeholder="Go Green!"></textarea>
+    </div>
+<br>
+    <input id="yes" type="text" placeholder="yessssssaaaaa">
 
 
 

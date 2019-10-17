@@ -1,25 +1,51 @@
-
-p{color:green;}
+body{background-color: peachpuff;}
+p{color:green;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.dated{background-color: darkkhaki;}
 #pear{color:red;}
 #pear:hover{color:purple; 
             font-style: italic; 
             font-size:larger;}
 #radio {background-color: papayawhip;
-        border-end-end-radius: 5px;
-        align-self: center;
         padding: 5px;
         border: 5px; 
         border-style: double; 
         border-color: rgb(196, 196, 10);
-        margin: 10px;}
+        margin: 10px;
+        border-radius: 4px;}
 hr{border-top: 2px dashed teal;} 
     hr:after {content:'\002702';
             position: relative; 
             top: -15px; 
             left: 1.5cm; 
-            background: white; 
+            background: peachpuff; 
             color: teal; 
             font-size: 22px;} 
 div.highlight{color: red;}
-span#important {background-color: wheat;;}
-    
+#important {background-color: paleturquoise;
+                border: 2px;
+                border-style: solid;        
+                border-color: darkcyan;    
+                padding: 3px;
+                margin: 3px;
+                border-radius: 8px;}
+textarea.dated{color: indigo;                
+                border: 5px;
+                border-style: double;        
+                border-color: gray;    
+                padding: 4px;
+                margin: 10px;
+                border-radius: 16px;}
+        ::placeholder{color: fuchsia;}
+input{color: indianred;}
+div#green{border-style: solid;
+        padding: 14px;
+        margin: 10px;
+        border-radius: 26px;
+        text-align: center;
+        color: steelblue;}
+#yes::placeholder{color: rgb(250, 62, 103);}
+
+
+
+
