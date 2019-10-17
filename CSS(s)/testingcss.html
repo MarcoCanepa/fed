@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    
+    <title>Testing CSS</title>
+    <style>input {color:darkgoldenrod};</style>
+    <style>div {color:blue};</style>
+    <link rel="stylesheet" type=text/css href="stylesheet.css">
+</head>
+<!--commento non visualizzato-->
+
+<body>
+    <h3>Primo approccio con CSS - Cascading Style Sheet</h3>
+        <p>Tutti gli input all'interno di questa pagina avranno una colorazione giallina/dorata <br>
+            mentre il testo interno alla div sarà blu. Questi colori sono dati da regole nel head della pagina.<br>
+            Il testo di questo paragrafo invece è verde perchè a questa pagina html ho linkato una pagina css che <br> 
+            mi impone il verde come colore del testo di ogni <q>p</q></p>
+        <input type="date" name="tester">
+        <br> <br>
+    <div id="radio">
+        <input type="radio" id="fava" name="fav" value="apple" checked> <!--checked implica il default-->
+            <label for="fava">Apples</label>
+        <input type="radio" id="favp" name="fav" value="pear">
+            <label for="favp" id="pear">Pears</label>
+        <input type="radio" id="favb" name="fav" value="banana">
+            <label for="favb">Bananas</label>
+    </div>
+</body>
+
+</html>
