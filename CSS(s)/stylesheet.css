@@ -1,2 +1,8 @@
-p {color:green;}
-#pear {color:red}
+p{color:green;}
+#pear{color:red; hover:purple}
+#pear:hover{color:purple; font-style: italic; font-size:larger;}
+#radio {border-end-end-radius: 5px;
+    padding: 5px;
+    border: 5px; border-style: double; border-color: rgb(196, 196, 10);
+    margin: 10px;
+  }
