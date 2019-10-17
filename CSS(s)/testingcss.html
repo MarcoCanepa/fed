@@ -20,7 +20,7 @@
             mi impone il verde come colore del testo di ogni <q>p</q></p>
         <input type="date" name="tester">
         <br> <br>
-    <div id="radio">
+    <span id="radio">
         <input type="radio" id="fava" name="fav" value="apple" checked> <!--checked implica il default-->
             <label for="fava">Apples</label>
         <input type="radio" id="favp" name="fav" value="pear">
@@ -29,11 +29,31 @@
             <label for="favb">Bananas</label>
         <input type="radio" id="favo" name="fav" value="orange">
             <label for="favo">Oranges</label>
-    </div>
+    </span>
     <p>Le label delle mio opzioni da checkare dovrebbero essere tutte blu, ma ho inserito sulla mia stylesheet css una <br>
         regola che fa un overwrite causando il cambiamento di colore della label con id <q>pear</q> a rosso</p>
     <b>La particolarità di css e motivo er cui si chiama cascading è che le regolo possono essere contrastanti e <q>overwrite-anti</q>.<br>
         Se ciò accade la regola che si segue è l'ultima in ordine <q>alto-->basso</q></b>
+<br>    <hr>
+<br>
+    <div>
+        <p>A few words with <span id="important">something</span> more relevant</p>
+    </div>
+    <div class="highlight">
+        <h1>Something important</h1>
+        <h2>very important!</h2>
+    </div>
+    <div>
+        <p>The world is a magical place!</p>
+    </div>
+
+
+
+
+
+
+
+
 </body>
 
 </html>

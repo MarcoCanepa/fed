@@ -1,8 +1,25 @@
+
 p{color:green;}
-#pear{color:red; hover:purple}
-#pear:hover{color:purple; font-style: italic; font-size:larger;}
-#radio {border-end-end-radius: 5px;
-    padding: 5px;
-    border: 5px; border-style: double; border-color: rgb(196, 196, 10);
-    margin: 10px;
-  }
+#pear{color:red;}
+#pear:hover{color:purple; 
+            font-style: italic; 
+            font-size:larger;}
+#radio {background-color: papayawhip;
+        border-end-end-radius: 5px;
+        align-self: center;
+        padding: 5px;
+        border: 5px; 
+        border-style: double; 
+        border-color: rgb(196, 196, 10);
+        margin: 10px;}
+hr{border-top: 2px dashed teal;} 
+    hr:after {content:'\002702';
+            position: relative; 
+            top: -15px; 
+            left: 1.5cm; 
+            background: white; 
+            color: teal; 
+            font-size: 22px;} 
+div.highlight{color: red;}
+span#important {background-color: wheat;;}
+    
