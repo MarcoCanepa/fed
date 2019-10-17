@@ -7,6 +7,7 @@
     <title>Testing CSS</title>
     <style>input {color:darkgoldenrod};</style>
     <style>div {color:blue};</style>
+    <style>b {color: orange}</style>
     <link rel="stylesheet" type=text/css href="stylesheet.css">
 </head>
 <!--commento non visualizzato-->
@@ -27,6 +28,10 @@
         <input type="radio" id="favb" name="fav" value="banana">
             <label for="favb">Bananas</label>
     </div>
+    <p>Le label delle mio opzioni da checkare dovrebbero essere tutte blu, ma ho inserito sulla mia stylesheet css una <br>
+        regola che fa un overwrite causando il cambiamento di colore della label con id <q>pear</q> a rosso</p>
+    <b>La particolarità di css e motivo er cui si chiama cascading è che le regolo possono essere contrastanti e <q>overwrite-anti</q>.<br>
+        Se ciò accade la regola che si segue è l'ultima in ordine <q>alto-->basso</q></b>
 </body>
 
 </html>
